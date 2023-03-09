@@ -1,2 +1,3 @@
 # RADI-Solutions
-JdeRobot RADI exercise solutions
+JdeRobot RADI problem solutions
+Link: http://jderobot.github.io/RoboticsAcademy/exercises/
