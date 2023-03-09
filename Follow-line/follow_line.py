@@ -5,7 +5,6 @@ import numpy as np
 import math
 import random
 import time
-# Enter sequential code!
 
 WIDTH = HAL.getImage().shape[1]
 THRESHOLD_SIZE = 5
@@ -63,9 +62,6 @@ def main():
     cv2.circle(img, middlePoint, radius=5, color=(255, 0, 0), thickness=-1)
     cv2.circle(th, middlePoint, radius=5, color=255, thickness=-1)
     
-    # add lines to img
-    # img = add_lines(img, lines)
-    
     # get error
     global last_middle_point
     error = int(img.shape[1]/2) - middlePoint[0]
@@ -81,5 +77,4 @@ def main():
     GUI.showImage(img)
     
 while True:
-    # Enter iterative code!
     main()
